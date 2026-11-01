@@ -208,7 +208,7 @@ import {getAuth,onAuthStateChanged,signInWithEmailAndPassword,signOut} from "htt
 import {getFirestore,doc,getDoc,setDoc} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 const USE_LOGIN=false; /* লগইন চালু করতে false বদলে true করুন */
 if(USE_LOGIN){
-const app=initializeApp({apiKey:"AIzaSyABFMAL-tErDLMRo3lWw3ZAfMJVpdalQbs",authDomain:"bsr-64518.firebaseapp.com",projectId:"bsr-64518",storageBucket:"bsr-64518.firebasestorage.app",messagingSenderId:"300764498013",appId:"1:300764498013:web:fb71f52e3525b2e3f6e5b4"});
+const app=initializeApp({apiKey:"AIzaSyAoGM_XtnQ4uDYA-ZCl7IXIcHnOHmP4XFg",authDomain:"b-sr-27ce9.firebaseapp.com",projectId:"b-sr-27ce9",storageBucket:"b-sr-27ce9.firebasestorage.app",messagingSenderId:"158779991285",appId:"1:158779991285:web:c3da3c3006a208dd37d1bc"});
 const auth=getAuth(app),db=getFirestore(app),ref=()=>doc(db,"app","main"),lg=document.getElementById("lg"),lm=document.getElementById("lm");
 window.FB={ok:false,tm:null,
  login:(e,p)=>signInWithEmailAndPassword(auth,e,p),
